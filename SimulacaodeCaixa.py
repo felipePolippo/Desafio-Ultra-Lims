@@ -20,7 +20,7 @@ while total > 0:
     total %= céd  
 
     if totcéd > 0:
-        print(f"Total de {totcéd} cédula(s) de R${céd}")
+        print(f"Total de {totcéd} cédulas de R${céd}")
 
     indice += 1 
 
