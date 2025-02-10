@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta e Armazenamento de Endereços</title>
+  <link rel="shortcut icon" href="location.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+ 
+<body>
+  <main class="container" >
+    <h1>Consulte seu Cep</h1>
+      <P><samp><b>Tab</b> para iniciar Busca</samp></P>
+
+    <div class="form-container">
+      
+      
+      <div class="textinicial">
+        
+      </div>
+
+      <form method="get" action="." class="form-grid">
+        <label>Cep:
+        <input name="cep" type="text" id="cep" value="" size="40" maxlength="9"
+               onblur="pesquisacep(this.value);" /></label><br />
+        <label>Rua:
+        <input name="rua" type="text" id="rua" size="40" /></label><br />
+        <label>Bairro:
+        <input name="bairro" type="text" id="bairro" size="40" /></label><br />
+        <label>Cidade:
+        <input name="cidade" type="text" id="cidade" size="40" /></label><br />
+        <label>Estado:
+        <input name="uf" type="text" id="uf" size="2" /></label><br />
+        </form>
+
+         
+      </div>
+      <button onclick="addItem()">Salvar</button> 
+      <button onclick="showItems()">Ceps Salvos</button> 
+      <button onclick="clearItems()">Limpar</button> 
+
+      <div id="result"></div>
+  </main>
+  <script src="BuscarCep.js"></script>
+</head>
+</body>
+
+</html>
