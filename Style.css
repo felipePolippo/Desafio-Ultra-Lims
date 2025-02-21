@@ -64,4 +64,33 @@ p {
   margin-bottom: 20px;
 }
 
+.btnsalvar{
+  font-size: 17px;
+  background-color: rgb(33, 3, 58);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  
+}
+.btnsalvos{
+  font-size: 17px;
+  background-color: rgb(33, 3, 58);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.btnlimpar{
+  font-size: 17px;
+  background-color: rgb(33, 3, 58);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+
+
 
